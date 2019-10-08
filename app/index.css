@@ -1,0 +1,131 @@
+
+.container {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50vh;
+    margin-bottom: 3%;
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: 100%; */
+    color: white;
+    justify-content: center;
+    /* justify-items: center; */
+}
+
+img {
+    margin-top: 5%;
+}
+
+.row {
+    margin-bottom: 20%;
+}
+
+.mainHeadline {
+    /* margin-top: 1vh; */
+    font-weight: 200;
+    font-size: 2.5vw;
+    margin-bottom: -2vh;
+}
+
+.subHead {
+    font-size: 1.35vw;
+    margin-top: 1%;
+}
+
+.mainContentStuff {
+    display: grid;
+    grid-column-gap: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 1vh auto 1vh auto;
+    grid-template-columns: 50% 50%;
+}
+
+.footer {
+    margin-top: 3%;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 55vh;
+    /* margin-bottom: 3%; */
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: 30px;
+    color: white;
+    justify-content: center;
+    /* justify-items: center; */
+}
+
+.bioImage {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(143, 143, 143)
+}
+
+.bioDiv {
+    margin-top: 15%;
+}
+
+span {
+    font-weight: 800;
+}
+
+.placeholder {
+    background-color: rgb(220, 220, 220);
+    padding: 10% 20% 20% 20%;
+}
+
+.code {
+    background-color: #333;
+    color: white;
+    font-size: 1vw;
+    max-width: 87%;
+    padding: 3%;
+}
+
+.bodyHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(179, 179, 179);
+    font-size: 4vh;
+    line-height: .5%;
+}
+
+.bodyText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2vh;
+    /* line-height: 4%; */
+}
+
+.npm {
+    /* background-color: rgb(255, 206, 9); */
+    background-color: rgb(255, 223, 95)
+}
+
+.npm:hover {
+    font-weight: 800;
+    cursor: pointer;
+    background-color: rgb(255, 204, 0)
+}
+
+button {
+    width: 10em;
+    border: none;
+    margin-right: 4%;
+    font-size: 15px;
+    transition: 0.15s;
+    height: 4em;
+}
+
+.github {
+    background-color: rgb(97, 97, 97);
+    color: white;
+}
+
+.github:hover {
+    cursor: pointer;
+    font-weight: 800;
+    background-color: #333;
+}
