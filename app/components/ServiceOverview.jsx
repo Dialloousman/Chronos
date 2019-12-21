@@ -24,7 +24,9 @@ const ServiceOverview = (props) => {
     // IPC listener responsible for retrieving infomation from asynchronous main process message.
     ipcRenderer.on('overviewResponse', (event, data) => {
       // Adds to state and context.
+      console.log('THIS IS ARRAY IN OVERVIEWRESPONSE: ', Object.values(JSON.parse(data)));
       setOverviewState(Object.values(JSON.parse(data)));
+      // dialog.showMessageBox({shit:'Broke'});
       serviceComponents.overviewData = JSON.parse(data);
     });
   }, []);

@@ -1,6 +1,7 @@
 import React from 'react';
 import RequestTypesChart from '../charts/request-type-chart.jsx';
 import ResponseCodesChart from '../charts/response-code-chart.jsx';
+import RouteTrace from '../charts/route-trace.jsx';
 import SpeedChart from '../charts/speed-chart.jsx';
 import ProcessesChart from '../charts/processes-chart.jsx';
 import TemperatureChart from '../charts/temperature-chart.jsx'
@@ -19,6 +20,10 @@ const ServiceDetails = (props) => {
       <div>
         <h3>Response Codes </h3>
         <ResponseCodesChart service={props.service} />
+      </div>
+      <div>
+        <h3>Route Trace</h3>
+         <RouteTrace service={props.service} />
       </div>
       <div>
         <h3>Speed Chart</h3>

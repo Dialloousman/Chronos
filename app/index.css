@@ -210,12 +210,18 @@ select {
   background-color: #edd9a3;
   transition: 0.2s;
   margin-left: 10px;
-
 }
 
 .backButton:hover {
   cursor: pointer;
   background-color: #fbcd4e;
+}
+
+.RouteBox {
+  background-color: rgb(247, 224, 53);
+  width: 16%;
+  height: 12%;
+  text-align: center;
 }
 
 form {
