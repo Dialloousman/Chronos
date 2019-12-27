@@ -218,10 +218,31 @@ select {
 }
 
 .RouteBox {
-  background-color: rgb(247, 224, 53);
-  width: 16%;
-  height: 12%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: 6em;
+  height: 6em;
   text-align: center;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background: rgb(228, 233, 65);
+  background: linear-gradient(315deg, rgb(223, 228, 62) 27%, rgba(253,252,45,1) 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#routeText {
+  color: rgb(97, 97, 97);
+  width: 11.3em;
+  margin-left: 6.8em;
+  padding-top: 1.8em;
+}
+
+#routeText:hover {
+  color: white;
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 form {
